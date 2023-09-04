@@ -53,35 +53,35 @@
     color: rgb(59, 65, 64);
     margin: 0px;
     padding: 24px;
-    background: linear-gradient(0deg, rgb(162, 197, 194), rgb(141, 219, 214));
+    background: linear-gradient(0deg, rgb(203, 218, 216), rgb(171, 226, 223));
 }
 
 #destination {
     display: flex;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center;
     width: 90%;
     margin: auto;
     margin-bottom: 40px;
 }
 
 .destination {
-    margin: 0 20px; /* Adjust the margin for spacing */
+    margin: 0 20px; 
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     border-radius: 15px;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px; /* Add padding for spacing */
+    padding: 10px; 
 }
 
 .destination .image-container {
     display: flex;
-    justify-content: center; /* Center the image horizontally */
+    justify-content: center; 
 }
 
 .destination img {
     height: 200px;
-    width: auto; /* Allow the image to adjust its width while maintaining aspect ratio */
-    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    width: auto; 
+    max-width: 100%; 
     object-fit: cover;
 }
 
